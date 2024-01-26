@@ -174,6 +174,47 @@ ul {
     justify-content: space-around;
 }
 
+.cta {
+    width: 75%;
+    background-color: var(--color-dark-1);
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    column-gap: 3rem;
+}
+
+.cta__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 3rem;
+    margin: 6rem;
+}
+
+.cta--logo {
+    color: var(--color-withe-1);
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.cta__btn {
+    display: flex;
+    align-items: center;
+    color: var(--color-withe-1);
+    font-size: 1.6rem;
+}
+
+.cta__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta__img img {
+    width: 100%;
+}
+
 /* Countdown */
 .section {
     margin-top: 10rem;
@@ -335,11 +376,13 @@ ul {
 .category:hover {
     background-color: var(--color-primary);
     color: var(--color-withe-1);
-    
+
 }
-.category:hover img{
-filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(263deg) brightness(103%) contrast(101%);
+
+.category:hover img {
+    filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(263deg) brightness(103%) contrast(101%);
 }
+
 .best__selling {
     display: flex;
     justify-content: space-between;
