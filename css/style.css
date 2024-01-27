@@ -168,14 +168,15 @@ ul {
 }
 
 .header__filter {
-    width: 25%;
+    width: 20%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    border-right: 2px solid var(--color-dark-2);
 }
 
 .cta {
-    width: 75%;
+    width: 77%;
     background-color: var(--color-dark-1);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
@@ -213,6 +214,7 @@ ul {
 
 .cta__img img {
     width: 100%;
+    object-fit: cover;
 }
 
 /* Countdown */
